@@ -1,0 +1,87 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Globals */
+h1,
+h2,
+h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Header y Navegation */
+.name-site {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.name-site span {
+    color: #037bc0;
+}
+
+.nav-container {
+    border-top: 1px solid #e1e1e1;
+}
+
+.nav-principal {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.hero {
+    background-image: url(../img/principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+
+/* category list */
+.categories h2 {
+    text-align: center;
+}
+
+.category-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.category a {
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.category a:hover {
+    background-color: #037bc0;
+    color: #fff;
+    border-bottom-right-radius: 10px;
+}

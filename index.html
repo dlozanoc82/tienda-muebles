@@ -5,41 +5,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Inicio | Tienda Muebles</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/app.css">
 </head>
 
 <body>
 
     <header>
-        <h1>Tienda Muebles</h1>
+        <h1 class="name-site">Tienda <span>Muebles</span></h1>
     </header>
 
-    <nav>
-        <a href="index.html">Inicio</a>
-        <a href="about.html">Nosotros</a>
-        <a href="store.html">Tienda</a>
-        <a href="blog.html">Blog</a>
-        <a href="gallery.html">Galeria</a>
-        <a href="contact.html">Contacto</a>
-    </nav>
+    <div class="nav-container">
+        <nav class="nav-principal container">
+            <a href="index.html">Inicio</a>
+            <a href="about.html">Nosotros</a>
+            <a href="store.html">Tienda</a>
+            <a href="blog.html">Blog</a>
+            <a href="gallery.html">Galeria</a>
+            <a href="contact.html">Contacto</a>
+        </nav>
+    </div>
 
-    <section>
+    <div class="hero"></div>
+
+    <section class="container categories">
         <h2>Caegorias de Productos</h2>
-        <div>
-            <img src="./img/categoria1.jpg" alt="oficina">
-            <a href="#">Oficina</a>
-        </div>
-        <div>
-            <img src="./img/categoria2.jpg" alt="hogar">
-            <a href="#">Hogar</a>
-        </div>
-        <div>
-            <img src="./img/categoria3.jpg" alt="cocina">
-            <a href="#">Cocina</a>
+        <div class="category-list">
+            <div class="category">
+                <img src="./img/categoria1.jpg" alt="oficina">
+                <a href="#">Oficina</a>
+            </div>
+            <div class="category">
+                <img src="./img/categoria2.jpg" alt="hogar">
+                <a href="#">Hogar</a>
+            </div>
+            <div class="category">
+                <img src="./img/categoria3.jpg" alt="cocina">
+                <a href="#">Cocina</a>
+            </div>
         </div>
     </section>
 
-    <section>
+    <section class="about-us">
         <div>
             <h2>Sobre Nosotros</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam repellat aut id quae sequi nulla, magni
