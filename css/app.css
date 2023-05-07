@@ -255,3 +255,9 @@ img {
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 4rem;
 }
+
+.info-about-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
