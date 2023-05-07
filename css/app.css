@@ -85,7 +85,7 @@ img {
 
 .nav-principal {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 2rem 0;
 }
 
@@ -243,4 +243,15 @@ img {
 .copyright {
     text-align: center;
     margin-top: 5rem;
+}
+
+
+
+
+/** PAGE NOSOTROS **/
+.content-about {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 4rem;
 }
