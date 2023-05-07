@@ -217,3 +217,30 @@ img {
     font-size: 2.8rem;
     font-weight: 900;
 }
+
+
+/* Footer */
+.site-footer {
+    border-top: 1px solid #e1e1e1;
+    margin-top: 5rem;
+    padding-top: 5rem;
+}
+
+.site-footer h3 {
+    margin-bottom: 1rem;
+}
+
+.grid-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.footer-menu a {
+    display: block;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 5rem;
+}
