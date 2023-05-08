@@ -299,3 +299,10 @@ img {
 .info-meta-blog span {
     color: #037bc0;
 }
+
+
+/* PAGE POST */
+.content-entry-blog {
+    width: 70rem;
+    margin: 0 auto;
+}
