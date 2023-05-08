@@ -59,6 +59,7 @@ img {
     padding: 1rem;
     transition: background-color .3s ease-out;
     text-align: center;
+    cursor: pointer;
 }
 
 .btn:hover {
@@ -324,4 +325,68 @@ img {
     height: 40rem;
     width: 40rem;
     object-fit: cover;
+}
+
+
+
+
+/* PAGE CONTACT */
+.form {
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+.form fieldset {
+    border: 1px solid black;
+    margin-bottom: 2rem;
+}
+
+.form legend {
+    background-color: #005485;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1rem;
+    margin-bottom: 4rem;
+}
+
+.input {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.input label {
+    flex-basis: 12rem;
+}
+
+.input input[type="text"],
+.input input[type="email"],
+.input input[type="tel"],
+textarea,
+.input-datalist,
+select {
+    flex: 1;
+    border: 1px solid #e1e1e1;
+    padding: 1rem;
+}
+
+.input input[type="text"]:focus,
+.input input[type="email"]:focus,
+.input input[type="tel"]:focus,
+textarea:focus,
+.input-datalist:focus,
+select:focus {
+    border-color: #037bc0;
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px #037bc0;
+    outline: 0 none;
+}
+
+.input .datalist {
+    flex-basis: 17rem;
+}
+
+.btn-contac {
+    border: none;
 }
